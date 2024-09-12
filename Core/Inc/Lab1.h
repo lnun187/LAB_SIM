@@ -14,11 +14,11 @@
 #define LED_YELLOW 1
 #define LED_GREEN 2
 
-void init_exercise_1();
-void exercise_1_run();
-
-void init_exercise_2();
-void exercise_2_run();
+//void init_exercise_1();
+//void exercise_1_run();
+//
+//void init_exercise_2();
+//void exercise_2_run();
 
 void init_exercise_3();
 void exercise_3_run();
@@ -36,6 +36,7 @@ void init_exercise_10();
 void exercise_10_run();
 
 void display7SEG(int num);
+void display7SEGB(int num);
 void clearAllClock ();
 void setNumberOnClock(int num);
 void clearNumberOnClock(int num);

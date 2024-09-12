@@ -86,14 +86,14 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  init_exercise_1();
+  init_exercise_3();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    exercise_1_run();
+    exercise_3_run();
     HAL_Delay(1000);
     /* USER CODE END WHILE */
 
